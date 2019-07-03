@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Fundamentals 3</title>
+    </head>
+    <body>
+        <script>
+            // JavaScript code here!
+
+            // function that takes a number and returns the 
+            // sum of that number plus 7
+            function addSeven(n){
+                return n + 7;
+            }
+
+            console.log(addSeven(7));
+
+            // function that takes two numbers and returns the 
+            // the product of those two numbers. 
+            function multiply(a,b){
+                return a * b;
+            }
+
+            console.log(multiply(7,8));
+
+            // function that takes a string and returns that string with 
+            // only the first letter capitalized.
+            function capitalize(string){
+                return string.charAt(0).toUpperCase() + string.slice(1);
+            }
+
+            console.log(capitalize("avenger"));
+
+            // function that takes a string and returns the very last
+            // letter of that string.
+            function lastLetter(string){
+                return string.charAt(string.length-1);
+            }
+
+            console.log(lastLetter("Oslo"));
+        </script>
+    </body>
+</html>
